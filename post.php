@@ -36,7 +36,7 @@
             $NNN = $CH*60 + $CM2;
             //echo "$NNN | ";
             $NNN = intval($NNN / 15);
-            if ($NNN > 9) $NNN = $NNN % (9); 
+            if ($NNN >11) $NNN = $NNN % (11); 
 $LST = (explode("\n", file_get_contents('lst.csv')));
 $LINK = trim($LST[$NNN]);
 $LINK = explode(';',$LINK);
