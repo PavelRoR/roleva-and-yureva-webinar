@@ -25,8 +25,8 @@
         background-position: 0 center
         padding-left: 71px
         list-style none
-        span
-            font-family: 'OpenSansBold', sans-serif
+        display: table
+        height 54px
         &:first-child
             background-image url(../img/number_1.jpg)
         &:nth-child(2)
@@ -37,16 +37,21 @@
             background-image url(../img/number_4.jpg)
         &:nth-child(5)
             background-image url(../img/number_5.jpg)
-            line-height: 51px
         &:nth-child(6)
             background-image url(../img/number_6.jpg)
         &:nth-child(7)
             background-image url(../img/number_7.jpg)
-            line-height: 51px
         &:nth-child(8)
             background-image url(../img/number_8.jpg)
         &:last-child
             background-image url(../img/number_9.jpg)
+        span
+            display: table-cell
+            vertical-align: middle
+.know_list li .span_bold
+    font-family: 'OpenSansBold', sans-serif
+    display: inline
+    vertical-align: baseline;
 #myModalForm
     .modal-dialog
         width: 465px;
