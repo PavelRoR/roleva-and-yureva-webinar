@@ -1,0 +1,191 @@
+#know
+    padding  47px 0 49px
+    background-image url(../img/know_bg.png)
+    background-repeat no-repeat
+    background-position: bottom right
+.reach_title
+    max-width 693px
+    margin 0 auto 43px
+    padding 0 0 50px 72px
+    background-image url(../img/reach_title_flower.jpg)
+    background-repeat no-repeat
+    background-position: 9px 72px
+    font-size: 50px;
+    font-family: "Garamond", serif
+    color: rgb(13, 13, 13);
+    text-transform: uppercase;
+    line-height: 1.32;
+    font-weight: normal
+.know_list
+    li
+        color: rgb(14, 11, 11);
+        line-height: 1.5;
+        margin-bottom: 28px
+        background-repeat no-repeat
+        background-position: 0 center
+        padding-left: 71px
+        list-style none
+        span
+            font-family: 'OpenSansBold', sans-serif
+        &:first-child
+            background-image url(../img/number_1.jpg)
+        &:nth-child(2)
+            background-image url(../img/number_2.jpg)
+        &:nth-child(3)
+            background-image url(../img/number_3.jpg)
+        &:nth-child(4)
+            background-image url(../img/number_4.jpg)
+        &:nth-child(5)
+            background-image url(../img/number_5.jpg)
+            line-height: 51px
+        &:nth-child(6)
+            background-image url(../img/number_6.jpg)
+        &:nth-child(7)
+            background-image url(../img/number_7.jpg)
+            line-height: 51px
+        &:nth-child(8)
+            background-image url(../img/number_8.jpg)
+        &:last-child
+            background-image url(../img/number_9.jpg)
+#myModalForm
+    .modal-dialog
+        width: 465px;
+    .modal-content
+        background-color: #d8e0f0
+        border none
+.mail
+    display block
+    margin 40px auto 0
+    display: block;
+    width: 300px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: none;
+    box-shadow: 0 2px 4px 2px rgba(0,0,0,.1);
+    border-radius: 3px;
+.button_mail
+    display block
+    margin 20px auto 0
+.alert_message {
+	display: none;
+	text-align: center;
+	font-size: 16px;
+    padding-top: 10px
+	color: red;
+}
+.checking {
+	display: table;
+	max-width: 90%;
+	margin: 20px auto 0;
+	text-align: left;
+}
+
+.checking .check_label {
+	font-size: 11px;
+	color: #000
+	line-height: 22px;
+	cursor: pointer;
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 0 0 30px;
+	text-align: left
+}
+
+.checking .check_label a {
+	color: #000
+	text-decoration: underline
+}
+
+.checking .check_label:before {
+	content: '';
+	border-radius: 2px;
+	background-color: #aaa;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 22px;
+	height: 22px;
+
+}
+
+.checking .check_label:after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: -15px;
+	width: 18px;
+	height: 18px;
+	left: 3px;
+	top: -30px;
+	width: 16px;
+	height: 26px;
+	background-color: transparent;
+	opacity: 0;
+	border-bottom: 3px solid #ED6F9E
+	border-right: 3px solid #ED6F9E
+	-webkit-transform: rotate(41deg);
+	-ms-transform: rotate(41deg);
+	transform: rotate(41deg);
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+}
+
+.check {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	width: 0;
+	height 0;
+	border: 0;
+	left -99999px;
+}
+
+.check:checked + label:before {
+	border: 1px solid #c4c4c4;
+	background-color: #fff;
+
+}
+
+.check:checked + label:after {
+	opacity: 1;
+	top: -10px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+@-webkit-keyframes autofill {
+	to {
+		color: rgba(29, 28, 24, 0.702);
+		background: #f7f8fa;
+	}
+}
+
+input:-webkit-autofill {
+	-webkit-animation-name: autofill;
+	-webkit-animation-fill-mode: both;
+}
+button.close
+    font-size: 30px
+    top: 10px
+    right 15px
+    position: absolute
+    float: none
+    margin 0
+    z-index 99
+#myPolitics
+    .modal-title
+        font-size: 20px
+        font-family: 'OpenSansBold', sans-serif
+        font-weight: normal
+        small
+            display block
+    .modal-body
+        p
+            font-size: 16px
+            margin-bottom: 20px

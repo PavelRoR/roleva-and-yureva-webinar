@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Garamond';
-    src: url('fonts/Garamond.eot');
-    src: url('fonts/Garamond.eot') format('embedded-opentype'),
-         url('fonts/Garamond.woff2') format('woff2'),
-         url('fonts/Garamond.woff') format('woff'),
-         url('fonts/Garamond.ttf') format('truetype'),
-         url('fonts/Garamond.svg#Garamond') format('svg');
-}
