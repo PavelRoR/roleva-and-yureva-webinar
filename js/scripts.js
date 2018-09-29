@@ -15,11 +15,13 @@ $(document).ready(function () {
                 email.css("border", "1px solid red");
                 message.text('Введите email').slideDown(500);
                 return false;
-            } else if (!email.val().match(reEm)) {
-                email.css("border", "1px solid red");
-                message.text('Email введен некорректно').slideDown(500);
-                return false;
-            } else if (!check.prop("checked")) {
+            } 
+            // else if (!email.val().match(reEm)) {
+            //     email.css("border", "1px solid red");
+            //     message.text('Email введен некорректно').slideDown(500);
+            //     return false;
+            // } 
+            else if (!check.prop("checked")) {
                 check.next().css("color", "red");
                 message.text('Подтвердите соглашение').slideDown(500);
                 return false;
